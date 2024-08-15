@@ -79,7 +79,7 @@ int main(int argc, char **argv)
       if (argc == 1)
       {
 	    printf("Usage: lbe-1320 /dev/hidraw??\n\n");
-            printf("      --amp:  0-510 (Maps to 50mV - 1645mV)\n\n\n");
+            printf("      --amp:  0-510 (Maps to 50mV - 1645mV)\n");
             printf("      --pol:  0=Off, 1=Normal, 2=Inverted,\n\n");
             return -1;
       }
